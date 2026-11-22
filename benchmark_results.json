@@ -1,0 +1,80 @@
+[
+  {
+    "lines_per_file": 100000,
+    "total_lines": 200000,
+    "total_mb": 24.9,
+    "naive": {
+      "seconds_median": 1.11,
+      "seconds_min": 1.07,
+      "lines_per_sec": 180615,
+      "mb_per_sec": 22.5,
+      "peak_rss_mb": 75,
+      "quality": {
+        "expected": 28,
+        "found": 28,
+        "tp": 28,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "loghunter": {
+      "seconds_median": 0.16,
+      "seconds_min": 0.16,
+      "lines_per_sec": 1259561,
+      "mb_per_sec": 157.1,
+      "peak_rss_mb": 21,
+      "quality": {
+        "expected": 28,
+        "found": 28,
+        "tp": 28,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "speedup": 6.9,
+    "memory_ratio": 3.6
+  },
+  {
+    "lines_per_file": 1000000,
+    "total_lines": 2000000,
+    "total_mb": 249.4,
+    "naive": {
+      "seconds_median": 11.27,
+      "seconds_min": 11.1,
+      "lines_per_sec": 177449,
+      "mb_per_sec": 22.1,
+      "peak_rss_mb": 587,
+      "quality": {
+        "expected": 265,
+        "found": 265,
+        "tp": 265,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "loghunter": {
+      "seconds_median": 1.56,
+      "seconds_min": 1.53,
+      "lines_per_sec": 1280148,
+      "mb_per_sec": 159.6,
+      "peak_rss_mb": 22,
+      "quality": {
+        "expected": 265,
+        "found": 265,
+        "tp": 265,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "speedup": 7.2,
+    "memory_ratio": 26.7
+  }
+]

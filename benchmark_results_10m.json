@@ -1,0 +1,23 @@
+[
+  {
+    "lines_per_file": 5000000,
+    "total_lines": 10000000,
+    "total_mb": 1246.9,
+    "loghunter": {
+      "seconds_median": 7.92,
+      "seconds_min": 7.9,
+      "lines_per_sec": 1262633,
+      "mb_per_sec": 157.4,
+      "peak_rss_mb": 23,
+      "quality": {
+        "expected": 1325,
+        "found": 1325,
+        "tp": 1325,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    }
+  }
+]
